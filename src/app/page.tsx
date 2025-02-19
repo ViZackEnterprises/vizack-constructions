@@ -42,7 +42,7 @@ export default function Home() {
             >
               <p className="sm:block ">Welcome to</p>
               <span className="text-orange-600 mb-8 md:block">
-                ViZack Enterprises <span className="text-black">/</span> <span className="text-orange-300">Constructions</span>
+                ViZack Enterprises <span className="text-black">&</span> <span className="text-orange-300">Constructions</span>
               </span>
               <p className="text-zinc-500 md:block mt-4">Masters of {""}</p>
               <span>
