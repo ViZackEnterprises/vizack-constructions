@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://vizackconstructions.com/sitemap.xml
+
+# Disallow access to admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
