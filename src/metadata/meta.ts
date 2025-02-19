@@ -26,9 +26,9 @@ export default function getMetadata(): Metadata {
         applicationName: "ViZack Enterprises",
         creator: "Gajender",
         icons: {
-            icon: "/logo/logo.png",
-            apple: "/logo/logo.png",
-            shortcut: "/logo/logo.png",
+            icon: "/logo/circle.png",
+            apple: "/logo/circle.png",
+            shortcut: "/logo/circle.png",
         },
         openGraph: {
             title: "ViZack Enterprises",
