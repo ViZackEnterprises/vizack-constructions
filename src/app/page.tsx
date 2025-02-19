@@ -13,7 +13,7 @@ import {
 import ServiceCard from "../components/ServiceCard";
 import { homeServices } from "@/utils/services";
 import { Teko } from "next/font/google";
-import { RoughNotation } from "react-rough-notation";
+// import { RoughNotation } from "react-rough-notation";
 import { imgLoader } from "@/utils/constants";
 import Image from "next/image";
 import { whyChooseUs } from "@/utils/why-choose-us";
@@ -111,13 +111,13 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className={"text-3xl text-orange-500 mb-4 font-serif lines"}>
-              <RoughNotation
+              {/* <RoughNotation
                 type="underline"
                 animationDuration={300}
                 show={true}
-              >
+              > */}
                 Our Services
-              </RoughNotation>
+              {/* </RoughNotation> */}
             </h2>
             <p className="text-black pt-4">
               Comprehensive construction and property solutions tailored to your
@@ -155,12 +155,13 @@ export default function Home() {
               className={
                 "text-3xl font-bold mb-4 text-orange-500 font-serif lines "
               }
-              >   <RoughNotation
+            >
+              {/* <RoughNotation
               type = "underline"
               animationDuration = {300}
-              show = {true}>
+              show = {true}> */}
                 Why Choose Us
-                </RoughNotation>
+                {/* </RoughNotation> */}
             </h2>
             <p className="text-black font-semibold pt-4">
               We deliver excellence through our core values and commitment to
