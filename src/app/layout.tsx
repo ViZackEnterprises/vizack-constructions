@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import LoadBar from "@/components/loadbar"
 import { Montserrat } from "next/font/google"
 import getMetadata from "@/metadata/meta"
+import { Analytics } from "@vercel/analytics/react"
 
 const montserrat = Montserrat({
   weight: ["600"],
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={"bg-[#EBE7E1] " + montserrat.className}>
+        <Analytics />
         <LoadBar />
         <Header />
         <main className={"" + montserrat.className}>
