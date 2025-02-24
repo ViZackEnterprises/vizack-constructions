@@ -148,7 +148,9 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Address</p>
                       <p className="text-muted-foreground">
-                        Sakshi Greens, Sachin Tendulkar Marg, Near DB City, Hurawali, City centre Gwalior
+                        <Link target="_blank" className="hover:text-secondary transition-colors" href="https://maps.app.goo.gl/cVMF31yq7TikZq3z9?g_st=aw">
+                          Sakshi Greens, Sachin Tendulkar Marg, Near DB City, Hurawali, City centre Gwalior
+                        </Link>
                       </p>
                     </div>
                   </div>
